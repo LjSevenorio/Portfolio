@@ -197,16 +197,17 @@ span {
 @media(max-width:768px) {
   .typewrite {
     transition: 1s;
-    font-size: 6.5em;
+    font-size: 5rem;
     padding-top: 74px;
   }
   .qoute {
+    font-size: .8rem;
     transition: 1s;
     padding-top: 310px;
   }
   .GoContact {
     transition: 1s;
-    padding-top: 400px;
+    padding-top: 370px;
   }
 }
 
@@ -402,13 +403,13 @@ span {
   width: 100%;
   height: auto;
   background-image: url('../image/programmer2.jpg');
-  background-position: center 180px;
-  background-repeat: no-repeat;
-  background-size: cover;
+
   opacity: 0.9;
 }
 
 .my-skills {
+  width: 100%;
+  height: auto;
   margin-top: 10rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
@@ -507,11 +508,16 @@ h1.designs {
   margin-bottom: 0;
 }
 
+.profile-imge{
+  width:25%;
+}
+
 .portfolio-description h1 {
   font-size: 3rem;
   font-weight: 300;
   margin: 1rem 0;
 }
+
 
 .portfolio-description h6 {
   font-size: 1.5rem;
@@ -767,6 +773,9 @@ input[type="submit"]:hover {
   .nav-list {
     flex-direction: column;
   }
+  section{
+    padding: 3rem 0;
+  }
   .nav-list .icon-link {
     letter-spacing: 2px;
     font-size: 7rem;
@@ -779,6 +788,9 @@ input[type="submit"]:hover {
   }
   .about-heading h1 {
     font-size: 8rem;
+  }
+  .social-media li{
+    margin:10px
   }
   .section-heading h1 {
     font-size: 3rem;
@@ -804,13 +816,14 @@ input[type="submit"]:hover {
   }
   .timeline ul {
     margin: 0 0 0 auto;
+    width: 60%;
   }
   .timeline .date::before {
-    left: -21rem;
+    left: -23rem;
   }
   .timeline .date::after {
-    left: -5.9rem;
-  }
+    left: -7.9rem;
+}
   .nav-list li {
     letter-spacing: 10px;
   }
