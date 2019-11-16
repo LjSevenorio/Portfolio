@@ -197,11 +197,12 @@ span {
 @media(max-width:768px) {
   .typewrite {
     transition: 1s;
-    font-size: 2.5em;
-    padding-top: 165px;
+    font-size: 6.5em;
+    padding-top: 74px;
   }
   .qoute {
     transition: 1s;
+    padding-top: 310px;
   }
   .GoContact {
     transition: 1s;
@@ -274,9 +275,9 @@ span {
 
 .section-heading h1 {
   font-size: 3.5rem;
-  color: rgb(255, 255, 255, .3);
+  color: rgb(255, 255, 255, .6);
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 600;
   position: relative;
   margin-bottom: 5rem;
 }
@@ -437,14 +438,14 @@ span {
   margin: 2rem -2px 2rem 0;
   color: #ff4343;
   font-family: 'Poppins', sans-serif;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .skills h2 {
   letter-spacing: 2px;
   color: black;
   font-family: 'Rubik', sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: black;
 }
@@ -462,7 +463,7 @@ span {
 h1.designs {
   margin: 2rem -2px 1rem 0;
   font-family: 'Poppins', sans-serif;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .skills p {
@@ -540,7 +541,7 @@ h1.designs {
   border-left: 4px solid #ffe838;
   border-radius: .8rem;
   background: rgb(0, 0, 0, 0.5);
-  margin: 0 auto;
+  margin: 0 300px;
   position: relative;
   padding: 5rem;
   list-style: none;
@@ -551,9 +552,9 @@ h1.designs {
 .timeline h1 {
   font-size: 2rem;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 1000;
   margin-bottom: 1rem;
-  opacity: .4;
+  opacity: 0.6;
 }
 
 .timeline .date {
@@ -623,6 +624,7 @@ h1.designs {
   position: relative;
   margin-bottom: 5rem;
   border-radius: 10px;
+  padding: 5px;
 }
 
 .section-heading .btn {
