@@ -161,11 +161,12 @@ span {
 }
 
 .qoute {
+  
   font-size: 1em;
   color: white;
   font-family: 'Liu Jian Mao Cao', cursive;
   position: absolute;
-  text-align: center;
+  text-align: justify;
   z-index: 1;
   padding-top: 270px;
   transition: 1s;
@@ -357,6 +358,7 @@ span {
 }
 
 .about-details p {
+  text-align: justify;
   font-size: 2rem;
   font-weight: 200;
 }
