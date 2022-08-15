@@ -890,8 +890,7 @@ figure.snip1218.hover img {
 
   h2::after {
     top: 42px;
-    left: 44%;
-    margin-left: -5px;
+    left: calc(50% - 44px);
     right: 0;
   }
 
