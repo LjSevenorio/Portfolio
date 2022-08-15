@@ -86,6 +86,11 @@ $(function () {
     });
     // End To the top
 
+
+    AOS.init({
+        once: true
+    });
+
 });
 
 //ANIMATION ILLUSTRATION
