@@ -1052,8 +1052,8 @@ figure.snip1218.hover img {
 
   /*Start section02*/
   .section02 {
-    padding-top: 60px;
-    height: 182vh;
+    padding: 50px 0;
+    height: auto;
   }
 
   .sec02_cont01 {
