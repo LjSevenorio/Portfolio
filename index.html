@@ -2,288 +2,353 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet icon" href="image/rickme.jpeg">
-    <title>Lj Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <title>Lj Portfolio</title>
+  <meta name="description" content="portfolio" />
+  <meta name="keywords" content="portfolio" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css  ">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet icon" href="images/logo.png">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Permanent+Marker" />
 
 </head>
 
 <body>
+  <div class="wrap">
+    <header class="header">
+      <p class="sp_logo">
+        <img src="images/logo.png" alt="lj" />
+      </p>
+      <div id="nav-icon3">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav class="nav clearFix transparentBG">
+        <p class="logo">
+          <a href="#"><img src="images/logo.png" alt="lj" />
+          </a>
+        </p>
 
-    <header id="header">
-        <nav>
-            <div class="logo">
-                <a href="index.html"><img src="image/lj-logo.gif" class="lj-logo"></a>
-            </div>
-
-            <div class="menu-icon">
-                <i class="fa fa-bars fa-2x"> </i>
-            </div>
-
-            <div class="menu">
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Skills</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-
-        <div class="fullscreen-bg">
-
-            <h1 href="" class="typewrite" data-period="2000"
-                data-type='[ "Hi, Im Lj.", "I am Creative.", "I Love to Design.", "I Love to Develop."]'>
-                <span class="wrap"></span>
-            </h1>
-
-            <div class="qoute">
-                <h1>The best and most beautiful things in the world cannot be seen or <br>
-                    even touched - they must be felt with the heart - Hellen Keller</h1>
-            </div>
-
-            <div class="GoContact">
-                <a href="#contact">Get in touch</a>
-            </div>
-
-            <div class="video-container">
-                <video autoplay muted loop id="myVideo">
-                    <source src="image/CodingB.mp4" type="video/mp4">
-                </video>
-            </div>
-        </div>
+        <ul class="nav01">
+          <li>
+            <a class="glow" href="#">HOME</a>
+          </li>
+          <li>
+            <a class="glow" href="#about">ABOUT</a>
+          </li>
+          <li>
+            <a class="glow" href="#portfolio">PORTFOLIO</a>
+          </li>
+          <li>
+            <a class="glow" href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
     </header>
-
-    <section class="about" id="about">
-        <div class="container">
-            <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
-                <img src="image/Blurred-Image.gif" alt="PictureOfMe">
+    <main>
+      <div class="social pc">
+        <ul class="socialList">
+          <li><a href="https://github.com/LjSevenorio" target="_blank">
+              <i class="fa-brands fa-github-alt"></i></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/cococalvin/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/eljay7oreo/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/lerin-john-sevenorio-a9b6601b2/" target="_blank"><i
+                class="fa-brands fa-linkedin-in"></i></a>
+          </li>
+          <li>
+            <a href="https://codepen.io/cococalvin"><i class="fa-brands fa-codepen"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="section01">
+        <div class="wrapInner flex">
+          <div class="sec01_cont01">
+            <p>Hello<span class="wave">👋</span><br>My name is</p>
+            <h1>Lerin John Sevenorio</h1>
+            <p class="typewrite" data-period="2000"
+              data-type='[ "Coffee Addict","Front-End Developer", "Email Magazine", "RMS-CMS"]'>
+              <span>I Can</span>
+              <span class="wrap"></span>
+            </p>
+            <div data-aos="flip-down" data-aos-duration="1000" class="resume">
+              <a href="Lerin-John-M.-Sevenorio.docx" class="btn" download>
+                <i class="fa fa-download"></i>&nbsp;Resume
+              </a>
             </div>
-            <div class="about-details">
-                <div class="about-heading" data-aos="fade-down" data-aos-delay="300">
-                    <h1>About</h1>
-                    <h6>Myself</h6>
-                </div>
-                <p>Hi I'am Lerin John Sevenorio who is in love with designing and creating different design and ideas.
-                    I enjoy learning about new technologies and have passion in front-end development. I always indulge
-                    myself on learning and experiencing something new.
-                </p>
-                <div class="social-media" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500"
-                    data-aos-duration="3000">
-                    <ul class="nav-list">
-                        <li>
-                            <a href="https://www.facebook.com/cococalvin" class="icon-link">
-                                <i class="fab fa-facebook-square"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://codepen.io/cococalvin" class="icon-link">
-                                <i class="fab fa-codepen"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/cocopotato" class="icon-link">
-                               <i class="fab fa-github"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+          </div>
+          <div class="animation" id="app">
+            <div class="hoverEffects">
+              <lottie-player src="/person.json" background="transparent" speed="3" hover loop>
+              </lottie-player>
             </div>
+          </div>
         </div>
-    </section>
-
-    <section class="experience" id="experience">
-        <div class="container">
-            <div class="section-heading">
-                <h6>Training and Work Experience</h6>
+      </div>
+      <div class="section02" id="about">
+        <div class="wrapInner flex">
+          <div class="sec02_cont01">
+            <div class="sec02_cont01Img01">
+              <img src="images/profile-image.jpg" alt="#">
+              <img src="images/profile-bg.jpg" alt="#">
             </div>
-            <div class="timeline">
-                <ul>
-                    <li class="date" data-date="September 23, 2019">
-                        <h1>RVN Tech-Voc Inc.</h1>
-                        <p>
-                            Creative Web Designer
-                        </p>
-                    </li>
-                    <li class="date" data-date="2017 - 2019">
-                        <h1>WNS Global Services</h1>
-                        <p>
-                            Associate
-                        </p>
-                    </li>
-                    <li class="date" data-date="April 30, 2017">
-                        <h1>Networld Hotel Spa and Casino | Intern </h1>
-                        <p>
-                            OJT as Technical support
-                        </p>
-                    </li>
+          </div>
+          <div class="sec02_cont02">
+            <div class="sec02Txt01">
+              <h2>About<span>Me</span>&nbsp;&nbsp;</h2>
+              <div class="sec02_cont01Text01">
+                <p>I'm a Front-End Developer with 2 years of experience in developing various websites, I am the kind of
+                  person who is open to learning and strives to build new skills. I code a website from scratch and
+                  enjoy bringing ideas to life in the browser.</p>
+              </div>
+            </div>
+            <div class="sec02Txt02">
+              <h2>Skills&nbsp;&nbsp;</h2>
+              <div class="sec02_cont01Logo01">
+                <ul class="sec02LogoList flex">
+                  <li>
+                    <span class="iconify" data-icon="logos:adobe-photoshop"></span>
+                  </li>
+                  <li>
+                    <span class="iconify" data-icon="vscode-icons:file-type-js-official"></span>
+                  </li>
+                  <li>
+                    <span class="iconify" data-icon="vscode-icons:file-type-html"></span>
+                  </li>
+                  <li>
+                    <span class="iconify" data-icon="vscode-icons:file-type-css"></span>
+                  </li>
+                  <li>
+                    <span class="iconify" data-icon="logos:figma"></span>
+                  </li>
+                  <li>
+                    <span class="iconify" data-icon="logos:bootstrap"></span>
+                  </li>
+                  <li>
+                    <span class="iconify" data-icon="akar-icons:jquery-fill"></span>
+                  </li>
+                  <li>
+                    <span class="iconify" data-icon="bi:filetype-json"></span>
+                  </li>
+                  <li>
+                    <span class="iconify" data-icon="fa-brands:git-square"></span>
+                  </li>
                 </ul>
+              </div>
             </div>
+          </div>
         </div>
-    </section>
-
-    <div class="container-skill">
-        <section class="services" id="services">
-            <div class="container" id="skill">
-                <div class="section-heading">
-                    <h1>SKILLS</h1>
-                    <h6>What i can use </h6>
-                </div>
-                <div class="my-skills">
-                    <div class="skills" data-aos="fade-down" data-aos-offset="200">
-                        <div class="icon-container">
-                            <i class="fas fa-pen-square"></i>
-                        </div>
-                        <h1>Editing</h1>
-                        <!-- <p>
-                            I'm a designer that first is to take notice and make 
-                            notes of things others overlook. I always check the details
-                            that can ruin your design. I'am cautious and perfectionist
-                            and i love it.
-                        </p> -->
-                        <h1 class="designs">Things that i can design</h1>
-                        <p>Logos, Videos, Website, Typography</p>
-                        <h1 class="designs">Designing Tools</h1>
-                        <h2>Adobe Photoshop</h2>
-                        <h2>After Effects</h2>
-
-                    </div>
-                    <div class="skills" data-aos="fade-up" data-aos-delay="200">
-                        <div class="icon-container">
-                            <i class="fas fa-code"></i>
-                        </div>
-                        <h1>Front-End</h1>
-                        <h1 class="designs">Things that i use</h1>
-                        <p>HTML5, CSS3, Javasript</p>
-                        <h1 class="designs">Dev Tools</h1>
-                        <h2>Bootstrap</h2>
-                        <h2>Javascript</h2>
-                        <h2>Jquery</h2>
-                        <h2>Sublime</h2>
-                        <h2>Visual Studio Code</h2>
-                        <h2>Codepen</h2>
-                    </div>
-                    <div class="skills" data-aos="fade-down" data-aos-offset="200">
-                        <div class="icon-container">
-                            <i class="fas fa-cogs"></i>
-                        </div>
-                        <h1>Back-end</h1>
-                        <h1 class="designs">Language i use</h1>
-                        <p>PHP, Java, MYSQL, VB.net</p>
-                        <h1 class="designs">Dev Tools</h1>
-                        <h2>Sublime Text</h2>
-                        <h2>Wamp</h2>
-                        <h2>Xampp</h2>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
-    <section class="portfolio" id="portfolio">
-        <div class="container">
-            <div class="section-heading">
-                <h1>Portfolio</h1>
-                <h6>Some of my Work</h6>
-            </div>
-            <div class="portfolio-item">
-                <div class="portfolio-img has-margin-right" data-aos="fade-right">
-                    <img src="image/project-1.PNG" alt="portfolio">
-                </div>
-                <div class="portfolio-description">
-                    <h6>Web Development</h6>
-                    <h1>Dating Website Project</h1>
-                    <p>
-                        An Dating website, this project is inspired by facebook 
-                        and I applied programming languages and technologies HTML, CSS, JavaScript, 
-                        Bootstrap, PHP and MySQL.
-                    </p>
-                    <a href="#" class="cta">View Details</a>
-                </div>
-            </div>
-            <div class="portfolio-item">
-                <div class="portfolio-description has-margin-right">
-                    <h6>Web Design</h6>
-                    <h1>HTML & CSS Design Project</h1>
-                    <p>
-                        I created this website just to make my skills to improved using CSS and HTML 
-                    </p>
-                    <a href="#" class="cta">View Details</a>
-                </div>
-                <div class="portfolio-img" data-aos="fade-in">
-                    <img src="image/project-2.PNG" alt="portfolio">
-                </div>
-            </div>
-            <div class="portfolio-item">
-                <div class="portfolio-img  has-margin-right" data-aos="fade-right">
-                    <img src="image/project-3.png" alt="portfolio">
-                </div>
-                <div class="portfolio-description">
-                    <h6>Web Development</h6>
-                    <h1>Capstone Project</h1>
-                    <p>
-                        An E-Commerce website, this project is about selling embroiders product online and custize the product
-                        I applied programming languages and technologies like HTML, CSS, JavaScript, jQuery, Bootstrap, 
-                        PHP and MySQL   
-                    </p>
-                    <a href="#" class="cta">View Details</a>
-                </div>
-            </div>
+      </div>
+      <div class="section03" id="portfolio">
+        <div class="wrapInner">
+          <h2>Featured<span>Works</span>&nbsp;&nbsp;</h2>
+          <p class="sec03Txt01">Here are some of the websites
+            that I've created or been a part of and training.</p>
+          <div class="sec03_cont01">
+            <figure class="snip1218">
+              <div class="image"><a href="https://dduet.duskin.jp/" target="_blank"><img src="images/portfolio01.jpg"
+                    alt="#" />
+                  <p>
+                    Click Here!
+                  </p>
+                </a>
+              </div>
+              <figcaption>
+                <h3><span>DDUET</span></h3>
+                <p>RMS Base</p>
+              </figcaption>
+            </figure>
+            <figure class="snip1218">
+              <div class="image"><a href="https://moneykit.net/en/" target="_blank"><img src="images/portfolio02.jpg"
+                    alt="#" />
+                  <p>
+                    Click Here!
+                  </p>
+                </a>
+              </div>
+              <figcaption>
+                <h3><span>Sony Bank</span></h3>
+                <p>Json/Components base</p>
+              </figcaption>
+            </figure>
+            <figure class="snip1218">
+              <div class="image"><a href="https://www.murata.com/" target="_blank"><img src="images/portfolio03.jpg"
+                    alt="#" />
+                  <p>
+                    Click Here!
+                  </p>
+                </a>
+              </div>
+              <figcaption>
+                <h3><span>Murata</span></h3>
+                <p>RMS Base</p>
+              </figcaption>
+            </figure>
+            <figure class="snip1218">
+              <div class="image"><a href="https://www.nipponham.co.jp/jp/" target="_blank"><img
+                    src="images/portfolio04.jpg" alt="#" />
+                  <p>
+                    Click Here!
+                  </p>
+                </a>
+              </div>
+              <figcaption>
+                <h3><span>Nippponham</span></h3>
+                <p>HTML/CSS/JS</p>
+              </figcaption>
+            </figure>
+            <figure class="snip1218">
+              <div class="image"><a href="http://www.takayama-gh.com/" target="_blank"><img src="images/portfolio05.jpg"
+                    alt="#" />
+                  <p>
+                    Click Here!
+                  </p>
+                </a>
+              </div>
+              <figcaption>
+                <h3><span>Takayama</span></h3>
+                <p>HTML/CSS/JS</p>
+              </figcaption>
+            </figure>
+            <figure class="snip1218">
+              <div class="image"><a href="https://www.toyobo.co.jp/" target="_blank"><img src="images/portfolio06.jpg"
+                    alt="#" />
+                  <p>
+                    Click Here!
+                  </p>
+                </a>
+              </div>
+              <figcaption>
+                <h3><span>Toyobo</span></h3>
+                <p>RMS Base</p>
+              </figcaption>
+            </figure>
+            <figure class="snip1218">
+              <div class="image"><a href="https://www.wacoal.jp/" target="_blank"><img src="images/portfolio07.jpg"
+                    alt="#" />
+                  <p>
+                    Click Here!
+                  </p>
+                </a>
+              </div>
+              <figcaption>
+                <h3><span>Wacoal</span></h3>
+                <p>HTML/CSS/JS</p>
+              </figcaption>
+            </figure>
+            <!-- <figure class="snip1218">
+              <div class="image"><a href="https://www.wacoal.jp/" target="_blank"><img src="images/portfolio08.jpg"
+                  alt="#" />
+                <p>
+                  Click Here!
+                </p></a>
+              </div>
+              <figcaption>
+                <h3><span>Majibu Magazine</span></h3>
+                <p>Html Template Magazine</p>
+              </figcaption>
+            </figure>
+            <figure class="snip1218 pic">
+              <div class="image"><a href="https://www.wacoal.jp/" target="_blank"><img src="images/portfolio09.jpg"
+                  alt="#" />
+                <p>
+                  Click Here!
+                </p></a>
+              </div>
+              <figcaption>
+                <h3><span>Air Series Magazine</span></h3>
+                <p>Html Template Magazine</p>
+              </figcaption>
+            </figure> -->
+          </div>
         </div>
-    </section>
-
-    <section class="contact" id="contact">
-        <div class="container">
-            <div class="section-heading">
-                <h1>Contact</h1>
-                <h6>Let's Work together</h6>
-                <div class="contact-details">
-                    <h3><i class="fas fa-phone-square"></i>+6309456722816</h3>
-                    <h3><i class="fas fa-envelope-square"></i>lerinjohnsevenorio@gmail.com</h3>
+      </div>
+      <div class="section04" id="contact">
+        <div class="wrapInner">
+          <h2>Contact<span>Me</span>&nbsp;&nbsp;</h2>
+          <p class="txt01">I'm looking forward to working with you!</p>
+          <div class="sec04_cont01">
+            <ul class="contact-details">
+              <li>
+                <i class="fas fa-phone-square"></i>
+                <div class="contact-cont01">
+                  <p class="contact-header">Mobile</p>
+                  <p>+639456722816</p>
                 </div>
-                <div data-aos="flip-down" data-aos-duration="1000" class="resume">
-                    <a href="Lerin-John-M.-Sevenorio.docx" class="btn" download>
-                        <i class="fa fa-download"></i>Resume
-                    </a>
+              </li>
+              <li>
+                <i class="fas fa-envelope-square"></i>
+                <div>
+                  <p class="contact-header">Email</p>
+                  <a href="mailto:lerinjohnsevenorio@gmail.com">
+                    <p>lerinjohnsevenorio@gmail.com</p>
+                  </a>
                 </div>
-                <!-- <form action="">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" placeholder="Enter your name. . ." required>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" placeholder="Enter your email. . ." required>
-                    <label for="service">Services:</label>
-                    <select name="services" id="service">
-                        <option value="">Web Design</option>
-                        <option value="">Web Development</option>
-                        <option value="">Web Design/Web Development</option>
-                    </select>
-                    <label for="subject">Subject:</label>
-                    <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
-                    <input type="submit" value="submit"> -->
-                </form>
+              </li>
+            </ul>
+            <div data-aos="flip-down" data-aos-duration="1000" class="resume">
+              <a href="Lerin-John-M.-Sevenorio.docx" class="btn" download>
+                <i class="fa fa-download"></i>&nbsp;Resume
+              </a>
             </div>
+          </div>
         </div>
-    </section>
-    <footer class="copyright">
-        <a href="#header">
-            <div class="up" id="up">
-                <i class="fas fa-chevron-up"></i>
-            </div>
-        </a>
-        <p>&copy; 2019 Lerin John Sevenorio</p>
+      </div>
+      <a href="javascript:" class="glowtop" id="return-to-top">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <i class="fa-solid fa-angle-up"></i>
+      </a>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="wrapInner">
+          <div class="social sp">
+            <ul class="socialList">
+              <li><a href="https://github.com/LjSevenorio" target="_blank">
+                  <i class="fa-brands fa-github-alt"></i></a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/cococalvin/" target="_blank"><i
+                    class="fa-brands fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/eljay7oreo/" target="_blank"><i
+                    class="fa-brands fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/lerin-john-sevenorio-a9b6601b2/" target="_blank"><i
+                    class="fa-brands fa-linkedin-in"></i></a>
+              </li>
+              <li>
+                <a href="https://codepen.io/cococalvin"><i class="fa-brands fa-codepen"></i></a>
+              </li>
+            </ul>
+          </div>
+          <p>&copy; Copyright 2022 - Lerin John Sevenorio</p>
+        </div>
+      </div>
     </footer>
-
-    <script src="javascript/javascript.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
+  </div>
+  <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@0.3.0/dist/lottie-player.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/javascript.js"></script>
+  <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
 </body>
 
 </html>
