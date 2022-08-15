@@ -889,8 +889,9 @@ figure.snip1218.hover img {
   }
 
   h2::after {
-    top: 48px;
-    left: 98px;
+    top: 42px;
+    left: 44%;
+    margin-left: -5px;
     right: 0;
   }
 
