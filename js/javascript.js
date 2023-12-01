@@ -5,7 +5,7 @@ $(function () {
             $(this).toggleClass("open");
             $(".nav").toggleClass("fade");
             document.body.classList.toggle('lock-scroll');
-            event.stopPropagation(); // Prevent the click event from propagating to the document
+            event.stopPropagation(); 
         });
     
         $(".nav li a").click(function () {
@@ -14,12 +14,10 @@ $(function () {
             document.body.classList.toggle('lock-scroll');
         });
     
-        // Close the navigation when clicking outside of it
         $(document).click(function (event) {
             const nav = $(".nav");
             const navIcon = $("#nav-icon3");
     
-            // Check if the clicked element is not within the navigation or the button
             if (!nav.is(event.target) && !navIcon.is(event.target) && nav.has(event.target).length === 0 && navIcon.has(event.target).length === 0) {
                 $("#nav-icon3").removeClass("open");
                 $(".nav").removeClass("fade");
