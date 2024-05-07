@@ -29,10 +29,6 @@ html {
   scroll-behavior: smooth;
 }
 
-main {
-  overflow: hidden;
-}
-
 .wrapInner {
   max-width: 1100px;
   padding: 0 30px;
@@ -494,9 +490,10 @@ lottie-player {
   z-index: 2;
   border: 3px solid #4d4d4d;
   padding: 15px;
+  margin-left: 14px;
   box-shadow: 0px 0px 16px 9px rgb(0 0 0 / 50%);
   border-radius: 5px;
-  width: 85%;
+  width: 70%;
   transition: all 1s ease;
   opacity: 0.8;
 }
@@ -507,10 +504,10 @@ lottie-player {
 
 .sec02_cont01Img01 img:nth-child(2) {
   position: absolute;
-  left: 18px;
+  left: 0;
   top: 18px;
   box-shadow: 0px 0px 16px 9px rgb(255 255 255 / 50%);
-  width: 78%;
+  width: 75%;
   z-index: -1;
   transform: rotate(-10deg);
   border-radius: 5px;
@@ -893,8 +890,8 @@ figure.snip1218.hover img {
   }
 
   h2::after {
-    top: 42px;
-    left: calc(50% - 44px);
+    top: 48px;
+    left: 98px;
     right: 0;
   }
 
@@ -970,7 +967,7 @@ figure.snip1218.hover img {
     float: left;
     position: fixed;
     z-index: 2;
-    margin: 18px 3% 3%;
+    margin: 3%;
   }
 
   .logo {
@@ -991,7 +988,7 @@ figure.snip1218.hover img {
   }
 
   .sp_logo img {
-    width: 45px !important;
+    width: 10% !important;
     padding-bottom: 10px;
   }
 
@@ -1050,14 +1047,14 @@ figure.snip1218.hover img {
 
   .animation {
     width: 80%;
-  margin: 0 auto;
+    margin: 0 auto;
   }
   /*End section01*/
 
   /*Start section02*/
   .section02 {
-    padding: 50px 0;
-    height: auto;
+    padding-top: 60px;
+    height: 182vh;
   }
 
   .sec02_cont01 {
@@ -1070,8 +1067,9 @@ figure.snip1218.hover img {
   }
 
   .sec02_cont01Img01 img:nth-child(2) {
-    left: 0;
+    0: 57px;
     top: 0;
+    left: 0px;
   }
 
   .sec02_cont02 {
