@@ -71,6 +71,7 @@ h2::after {
   height: 3px;
   display: inline-block;
   width: 70px;
+  margin: 0 auto;
   top: 18px;
   background: #ffb800;
 }
@@ -891,7 +892,7 @@ figure.snip1218.hover img {
 
   h2::after {
     top: 48px;
-    left: 98px;
+    left: 0;
     right: 0;
   }
 
@@ -967,7 +968,7 @@ figure.snip1218.hover img {
     float: left;
     position: fixed;
     z-index: 2;
-    margin: 3%;
+    margin: 2%;
   }
 
   .logo {
@@ -988,7 +989,7 @@ figure.snip1218.hover img {
   }
 
   .sp_logo img {
-    width: 10% !important;
+    width: 5% !important;
     padding-bottom: 10px;
   }
 
